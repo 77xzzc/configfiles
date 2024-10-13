@@ -28,6 +28,7 @@ Inspired by https://github.com/DoubleDotStudios/dotfiles/tree/main
 17. Install git-delta (https://github.com/dandavison/delta/releases)
 18. Install dunst (https://github.com/dunst-project/dunst)
 19. Install zoxide (https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#getting-started)
+20. Install atuin (https://docs.atuin.sh/#quickstart) (Pw: tevion89)
 
 
 Config Files:
@@ -38,10 +39,16 @@ Config Files:
 - ~/.config/fzf/fzf-git.sh
 - ~/.gitconfig
 - ~/.config/bat/config
+- ~/.tmux.conf
 
 Ordner:
 - ~/.config/nvim
 - ~/.config/tmux/plugins/catppuccin/tmux
+
+Optional:
+1. Install btop (https://github.com/aristocratos/btop?tab=readme-ov-file#installation)
+2. Install midnight commander (https://midnight-commander.org/)
+3. Install ranger (https://github.com/ranger/ranger)
 
 
 
