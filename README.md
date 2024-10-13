@@ -39,6 +39,7 @@ Config Files:
 - ~/.config/fzf/fzf-git.sh
 - ~/.gitconfig
 - ~/.config/bat/config
+- ~/.tmux.conf
 
 Ordner:
 - ~/.config/nvim
