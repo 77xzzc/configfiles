@@ -31,17 +31,17 @@ Inspired by https://github.com/DoubleDotStudios/dotfiles/tree/main
 
 
 Config Files:
-~/.config/kitty/kitty.conf
-~/.zshrc
-~/.config/kitt
-~/.config/dunst/dunstrc/dunst.conf
-~/.config/fzf/fzf-git.sh
-~/.gitconfig
-~/.config/bat/config
+- ~/.config/kitty/kitty.conf
+- ~/.zshrc
+- ~/.config/kitt
+- ~/.config/dunst/dunstrc/dunst.conf
+- ~/.config/fzf/fzf-git.sh
+- ~/.gitconfig
+- ~/.config/bat/config
 
 Ordner:
-~/.config/nvim
-~/.config/tmux/plugins/catppuccin/tmux
+- ~/.config/nvim
+- ~/.config/tmux/plugins/catppuccin/tmux
 
 
 
