@@ -124,13 +124,14 @@ alias vi="nvim"
 alias vim="nvim"
 alias ls="lsd --group-dirs first"
 alias ll="lsd -Alh --group-dirs first"
-alias c="bat -P"
 alias cat="bat -P"
 alias df="df -h"
-alias re="grep"
+alias re="grep -Hn"
 alias cd="z"
+alias c="z"
 alias ubuntu="fastfetch"
 alias reload="source ~/.zshrc"
+
 # Handy change dir shortcuts
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -151,3 +152,13 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 source <(fzf --zsh)
 source ~/.config/fzf/fzf-git.sh
 eval "$(zoxide init zsh)"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
+
+autoload -U bashcompinit && bashcompinit
+eval "$(pip completion --zsh)"
+source /etc/zsh_command_not_found
+export PATH=$PATH:/usr/local/bin
+
